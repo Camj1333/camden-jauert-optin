@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Camden Jauert Contact & SMS Consent</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 50px auto; line-height: 1.5; }
+    h1 { color: #1E3A8A; }
+    label { display: block; margin-top: 15px; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+    .checkbox { display: flex; align-items: center; margin-top: 10px; }
+    .checkbox input { margin-right: 10px; }
+    .disclaimer { font-size: 0.9em; color: #555; margin-top: 20px; }
+    button { margin-top: 20px; padding: 10px 20px; background-color: #1E3A8A; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<h1>Camden Jauert Contact Form</h1>
+<p>Please fill out this form to contact Camden Jauert. By submitting, you consent to receive SMS messages related to your inquiry.</p>
+
+<form>
+  <label>Full Name:
+    <input type="text" name="name">
+  </label>
+  
+  <label>Phone Number:
+    <input type="text" name="phone">
+  </label>
+  
+  <label>Message / Inquiry:
+    <textarea name="message"></textarea>
+  </label>
+  
+  <div class="checkbox">
+    <input type="checkbox" name="consent">
+    <span>I consent to receive SMS messages from Camden Jauert regarding my inquiry. Message & data rates may apply. Reply STOP to unsubscribe.</span>
+  </div>
+  
+  <p class="disclaimer">
+    Message Type: Transactional / Lead Follow-Up<br>
+    Message Frequency: You may receive up to 2 messages per inquiry only.<br>
+    Privacy Policy: <a href="https://example.com/privacy" target="_blank">https://example.com/privacy</a><br>
+    Terms & Conditions: <a href="https://example.com/terms" target="_blank">https://example.com/terms</a>
+  </p>
+  
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
